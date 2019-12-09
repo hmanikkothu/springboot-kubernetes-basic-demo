@@ -21,7 +21,7 @@ spec:
       - image: localhost/springguides/demo
         name: demo
         resources: {}
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
 status: {}
 ---
 apiVersion: v1
